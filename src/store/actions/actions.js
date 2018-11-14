@@ -1,6 +1,6 @@
 import fetch from 'isomorphic-fetch';
 
-const server = 'http://tv-server.trinity-tv.net/server/TvServerService/';
+const server = '';
 
 const MakeRequest = (method) => {
 return fetch(server + method + '.json', {
